@@ -31,6 +31,7 @@ const { data, error } = await useFetch("https://pokeapi.co/api/v2/pokemon", {
     <button @click="page++">Next</button>
     <div>
       <p>page: {{ page }}</p>
+      <p>offset: {{ offset }}</p>
       <p>error: {{ error }}</p>
     </div>
   </div>
