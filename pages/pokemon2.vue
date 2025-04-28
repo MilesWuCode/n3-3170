@@ -22,6 +22,12 @@ const { data, error } = await useAsyncData(
 <template>
   <div>
     <h1>Page: pokemo2, useAsyncData</h1>
+
+    <div style="display: flex; flex-direction: column">
+      <NuxtLink to="/pokemon">Go to Pokemon</NuxtLink>
+      <NuxtLink to="/pokemon2">Go to Pokemon2</NuxtLink>
+    </div>
+
     <ul>
       <li v-for="(item, index) in data" :key="index">
         {{ item }}
