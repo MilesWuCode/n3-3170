@@ -21,7 +21,7 @@ const { data, error } = await useAsyncData(
 
 <template>
   <div>
-    <h1>Page: pokemo2, useAsyncData</h1>
+    <h1>Page: pokemon2</h1>
 
     <div style="display: flex; flex-direction: column">
       <NuxtLink to="/pokemon">Go to Pokemon</NuxtLink>
